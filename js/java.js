@@ -217,7 +217,7 @@
 // let stored = []
 
 let loc = ['seattle', 'tokyo', 'dubai', 'paris', 'lima']
-let time = [' ', '6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm',]
+let time = [' ', '6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm','total']
 let parent = document.getElementById('resturant');
 let table = document.createElement('table')
 parent.appendChild(table)
@@ -229,7 +229,7 @@ function Cookies(avr, max, min) {
     
 
     this.numco = function () {
-        this.num = random(min, max) * this.avr
+        this.num = Math.floor(random(min, max) * this.avr)
         
     }
 }
@@ -257,29 +257,34 @@ for (let y = 0; y < 1; y++) {
     let row = document.createElement('tr')
     table.appendChild(row)
     row.textContent = loc[y]
-
-    for (let i = 0; i < time.length-1; i++) {
+    let x=0
+    for (let i = 0; i < time.length-2; i++) {
         let el = document.createElement('td')
         loc[y] = new Cookies(6.3, 23, 65)
         loc[y].numco()
         row.appendChild(el)
         el.textContent = (loc[y].num)
+        x+=loc[y].num
 
-
-    }
+    }let tot = document.createElement('td')
+    row.appendChild(tot)
+    tot.textContent = (x)
 }
 for (let y = 1; y < 2; y++) {
     let row = document.createElement('tr')
     table.appendChild(row)
     row.textContent = loc[y]
-
-    for (let i = 0; i < time.length-1; i++) {
+    let x=0
+    for (let i = 0; i < time.length-2; i++) {
         let el = document.createElement('td')
         loc[y] = new Cookies(1.2, 3, 24)
         loc[y].numco()
         row.appendChild(el)
         el.textContent = (loc[y].num)
-    }
+        x+=loc[y].num
+    }let tot = document.createElement('td')
+    row.appendChild(tot)
+    tot.textContent =(x)
 }
 
 
@@ -289,14 +294,17 @@ for (let y = 2; y < 3; y++) {
     let row = document.createElement('tr')
     table.appendChild(row)
     row.textContent = loc[y]
-
-    for (let i = 0; i < time.length-1; i++) {
+    let x=0
+    for (let i = 0; i < time.length-2; i++) {
         let el = document.createElement('td')
         loc[y] = new Cookies(3.7, 11, 38)
         loc[y].numco()
         row.appendChild(el)
         el.textContent = (loc[y].num)
-    }}
+        x+=loc[y].num
+    }let tot = document.createElement('td')
+    row.appendChild(tot)
+    tot.textContent = (x)}
 
 
 
@@ -304,27 +312,40 @@ for (let y = 2; y < 3; y++) {
         let row = document.createElement('tr')
         table.appendChild(row)
         row.textContent = loc[y]
-
-        for (let i = 0; i < time.length-1; i++) {
+        let x=0
+        for (let i = 0; i < time.length-2; i++) {
             let el = document.createElement('td')
             loc[y] = new Cookies(2.3, 20, 38)
             loc[y].numco()
             row.appendChild(el)
             el.textContent = (loc[y].num)
-        }}
+            x+=loc[y].num
+        }let tot = document.createElement('td')
+        row.appendChild(tot)
+        tot.textContent =(x)
+    }
+
+
+
         for (let y = 4; y < 5; y++) {
             let row = document.createElement('tr')
             table.appendChild(row)
             row.textContent = loc[y]
-    
-            for (let i = 0; i < time.length-1; i++) {
+    let x=0
+            for (let i = 0; i < time.length-2; i++) {
                 let el = document.createElement('td')
                 loc[y] = new Cookies(4.6, 2, 16)
                 loc[y].numco()
                 row.appendChild(el)
-                el.textContent = (loc[y].num)
+                el.textContent =(loc[y].num)
+                x+=loc[y].num
+                
+            }
+
+                let tot = document.createElement('td')
+                row.appendChild(tot)
+                tot.textContent = (x)
                
                
     
-            }}
-
+            }
