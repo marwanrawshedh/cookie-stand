@@ -10,6 +10,6 @@ ul  { margin: 20px;display: inline-block;font-family: 'Bebas Neue', cursive;;tex
 tr{margin: 2px;background-color: gainsboro;border: black;}
 footer{background-color: black;color: blanchedalmond;text-align: center ;margin-top:50ps ;}
 header{position: relative;;background-color: rgb(77, 75, 72) ;color: blanchedalmond;padding:  50px;}
-nav{position: absolute;top: 5px;left: 200px;padding-left: 30px;}
+nav{position: absolute;top: 5px;left: 300px;padding-left: 30px;}
 a{text-decoration: none;color: blanchedalmond;padding-left:20px ;}
 img{width: 17%;height: 80px;float: left;position: absolute;top: 5px;}
