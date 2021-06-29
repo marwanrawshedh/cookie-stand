@@ -6,4 +6,4 @@ ul li{color: #470938;font-size: large;font-weight: bold;height: 25px;}
 
 ul  { margin: 20px;display: inline-block;font-family: 'Bebas Neue', cursive;;text-align: center;}
 
-tr{margin: 2px;background-color: gainsboro;}
+tr{margin: 2px;background-color: gainsboro;border: black;}
