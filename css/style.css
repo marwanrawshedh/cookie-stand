@@ -1,7 +1,7 @@
 *{border-radius: 10px }
 body{background-color:#b1b0ae ;border-radius: 10px ;}
 
-ul{font-size: larger;font-weight: 900;background-color: #DBE6FD;border-radius: 10px;}
+ul{font-size: larger;font-weight: 900;background-color: #b1b0ae;border-radius: 10px;}
 
 ul li{color: #470938;font-size: large;font-weight: bold;height: 25px;}
 
@@ -10,6 +10,14 @@ ul  { margin: 20px;display: inline-block;font-family: 'Bebas Neue', cursive;;tex
 tr{margin: 2px;background-color: gainsboro;border: black;}
 footer{background-color: black;color: blanchedalmond;text-align: center ;margin-top:50ps ;}
 header{position: relative;;background-color: rgb(77, 75, 72) ;color: blanchedalmond;padding:  50px;}
-nav{position: absolute;top: 5px;left: 300px;padding-left: 30px;}
+#head{position: absolute;top: 5px;left: 300px;padding-left: 30px;}
 a{text-decoration: none;color: blanchedalmond;padding-left:20px ;}
-img{width: 17%;height: 80px;float: left;position: absolute;top: 5px;}
+header img{width: 17%;height: 80px;float: left;position: absolute;top: 5px;}
+
+
+form{ padding: 10px;width: 85%; margin-left:180px; white-space: pre-line;}
+input{margin:10px;background-color: rgb(122, 121, 121);}
+
+table{margin: auto;}
+ #image img {width: 200px;height: 200px;margin: 10px;}
+
