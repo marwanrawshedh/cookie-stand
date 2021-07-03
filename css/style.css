@@ -1,18 +1,18 @@
  
 html{margin: 0px;font-family: 'Bebas Neue', cursive;  }
-body{background: url(../rain.gif) center; }
+body{background: url(../rain2.gif) center  ; }
     
   
    
 
 body::before {    
     content: "";
-    background-image: url(https://previews.123rf.com/images/vell/vell1303/vell130300021/18441731-seamless-pattern-with-cupcakes-and-spices.jpg);
+    background-image: url(../backgrond.PNG);
     
     background-attachment: fixed;
     background-size: cover;
     position: absolute;
-    height:190% ;
+    height: 195%;
     top: 0px;
     right: 0px;
     bottom: 0px;
@@ -86,6 +86,7 @@ input{margin:10px;background-color: rgba(122, 121, 121, 0.473); border-radius: 8
 
 fieldset{border-color : rgb(0, 0, 0);border-style: solid;}
 p{text-indent: 50px;;font-size: larger;font-weight: 700;font-family: 'Bebas Neue', cursive;}
+
 h3{text-align: center;}
 
 #h4{margin:auto; width: 55%;}
