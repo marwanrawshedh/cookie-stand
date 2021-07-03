@@ -1,23 +1,164 @@
-*{border-radius: 10px }
-body{background-color:#b1b0ae ;border-radius: 10px ;}
+ 
+html{margin: 0px;font-family: 'Bebas Neue', cursive;  }
+body{background: url(../rain.gif) center; }
+    
+  
+   
 
-ul{font-size: larger;font-weight: 900;background-color: #b1b0ae;}
+body::before {    
+    content: "";
+    background-image: url(https://previews.123rf.com/images/vell/vell1303/vell130300021/18441731-seamless-pattern-with-cupcakes-and-spices.jpg);
+    
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    height:190% ;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: .8;} 
 
-ul li{color: #470938;font-size: large;font-weight: bold;height: 25px;}
+    
+    
+    header{ position: relative; color: rgba(7, 6, 6, 0.897);padding: 75px; font-size: large;font-weight: bolder;margin-bottom: 20px;background-color: rgba(15, 20, 20, 0.534);}
+    
+    header img{width: 10%;height: 140px;position: absolute;top: 1px; border-radius: 90px;  }
 
-ul  { margin: 20px;display: inline-block;font-family: 'Bebas Neue', cursive;;text-align: center;}
+nav{width: 50%; margin-left:15%;margin-top: 30px;}
 
-tr{margin: 2px;background-color: gainsboro;border: black;}
-footer{background-color: black;color: blanchedalmond;text-align: center ;margin-top:50ps ;}
-header{position: relative;;background-color: rgb(77, 75, 72) ;color: blanchedalmond;padding:  50px;}
+
+a{text-decoration: none;color: rgb(209, 196, 174);background-color: rgba(32, 44, 49, 0.541);padding: 10px;border-radius: 50px;height: 30px;width: 100px;margin-right: 40px;display: inline-block;text-align: center;} 
+
+ a:hover{
+    /* transform: rotateY(30deg);
+    transform-style: preserve-3d; */
+    transform: scale(1.2) ;
+    color: rgba(212, 174, 90, 0.863);
+    transition: 400ms;}
+
+header::before {    
+    content: "";
+    background-image: url(../back.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.4;} 
+
+/* maiiiiiiiin csss */
+
+ main{position: relative;background-color: rgba(97, 122, 122, 0.534);margin: auto;width: 95%; border-radius:50px; ;box-shadow: 3px 3px grey}
+h1{padding-top: 20px;margin-bottom: 0px;}
+
+#loc {font-size: larger;font-weight: 900;text-align: center;}
+
+#loc  { margin: 20px;font-family: 'Bebas Neue', cursive;;text-align: center;} 
+
+
+
+ #loc a{text-decoration: none;color: rgb(180, 169, 158); display: inline-block;background-color: rgba(20, 20, 34, 0.781);margin: 10px;padding: 10px;border-radius: 50px;height: 30px;width: 60px;}
+#loc a:hover{
+    /* transform: rotateY(30deg); */
+    /* transform-style: preserve-3d; */
+    transform: scale(1.2) ;
+    color: rgba(212, 174, 90, 0.863);
+    transition: 400ms;}
+th{background-color: rgba(11, 27, 48, 0.514) ;border-radius: 25px;height: 45px;}
+
+td{ margin: 2px;background-color: rgba(24, 45, 71, 0.425);border: black;width: 30px;
+height: 20px;border-radius:20px ;}
+
+
 #head{position: absolute;top: 5px;left: 300px;padding-left: 30px;}
-a{text-decoration: none;color: blanchedalmond;padding-left:20px ;}
-header img{width: 17%;height: 80px;float: left;position: absolute;top: 5px;}
 
 
-form{ padding: 10px;width: 20%; margin-left:180px; white-space: pre-line;}
-input{margin:10px;background-color: rgb(122, 121, 121); }
+
 
 table{margin: auto;}
- #image img {width: 200px;height: 200px;margin: 10px;}
- fieldset{border-color : rgb(0, 0, 0);border-style: solid;}
+
+input{margin:10px;background-color: rgba(122, 121, 121, 0.473); border-radius: 8px;}
+
+#image img {width: 200px;height: 200px;margin: 10px;}
+
+fieldset{border-color : rgb(0, 0, 0);border-style: solid;}
+p{text-indent: 50px;;font-size: larger;font-weight: 700;font-family: 'Bebas Neue', cursive;}
+h3{text-align: center;}
+
+#h4{margin:auto; width: 55%;}
+
+h4{ text-align: center;font-size: large;border-radius: 50px;background-color: rgba(32, 44, 49, 0.541) ;height: 40px; display: inline-block; margin-right:70px;padding:7px }
+
+h4:hover{
+    /* transform: rotateY(30deg);
+    transform-style: preserve-3d; */
+    transform: scale(1.2) ;
+    color: rgba(212, 174, 90, 0.863);
+    transition: 400ms;}
+    
+    #s1{float: left;margin-right: 5%;margin-left:20%;}
+    #s2{float: left;margin-right:2% ;}
+    #s3{float: left;}
+    
+    #s1:hover{ 
+         /* transform: rotateY(30deg); 
+        transform-style: preserve-3d; */ 
+         transform: scale(1.2) ; 
+         /* color: rgba(212, 174, 90, 0.863); */ 
+         transition: 400ms;}
+        #s2:hover{ 
+             /* transform: rotateY(30deg);
+            transform-style: preserve-3d; */
+ 
+            transform: scale(1.2) ;
+ 
+ /* color: rgba(212, 174, 90, 0.863); */
+ 
+  transition: 400ms;}
+            
+ 
+  #s3:hover{
+     
+    /* transform: rotateY(30deg);
+                transform-style: preserve-3d; */
+     
+                transform: scale(1.2) ;
+                /* color: rgba(212, 174, 90, 0.863); */
+                transition: 400ms;}
+         
+
+                h3{clear: both;}
+     
+                
+                /* fooooooooooooter cssssss */
+     
+                
+                
+                footer{position:relative; background-color: rgba(41, 39, 39, 0.253);margin-top:50px ;width: 100%;height:5%;text-align: center;}
+                footer::before{
+                    content: "";
+                    background-image: url(../back.jpg);
+                    background-attachment: fixed;
+                    background-size: cover;
+                    position: absolute;
+                    top: 0px;
+                    right: 0px;
+                    bottom: 0px;
+                    left: 0px;
+                    opacity: 0.4;
+                    
+                    
+                }
+                footer img{ height:150px;padding: 0px; position: relative;}
+                  
+
+                /* extr dataaaaaa page */
+
+
+                form{ padding: 10px;width: 20%; margin:auto; white-space: pre-line;}
+                tr{ background-color: rgba(24, 45, 71, 0.425);text-align: center;}
+                fieldset{border-radius:25px ;border-color: rgb(29, 20, 46);}
+                td{text-align: center;}

@@ -216,7 +216,8 @@
 //     return Math.floor(Math.random() * (max - min + 1) + min);}
 // let stored = []
 
-let loc = ['seattle', 'tokyo', 'dubai', 'paris', 'lima']
+let total=[]
+let loc = ['seattle', 'tokyo', 'dubai', 'paris', 'lima','total']
 let time = [' ', '6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', 'total']
 let parent = document.getElementById('resturant');
 let table = document.createElement('table')
@@ -230,7 +231,7 @@ function Cookies(avr, max, min) {
 
     this.numco = function () {
         this.num = Math.floor(random(min, max) * this.avr)
-        
+        total.push(this.num)
     }
 }
 
@@ -387,5 +388,54 @@ function adding(event) {
 
 
     }
+    for (let y = 5; y < 6; y++) {
+       
+        let row = document.createElement('tr')
+        table.appendChild(row)
+        row.textContent = loc[y]
+    
+    for(let i=0;i<time.length-2;i++){
+    
+     let x=0
+    for(let y=0;y<total.length/15;y++){
+        
+    x+=total[y*14+i]}
+    // console.log(x)
+    
+        let el = document.createElement('td')
+        row.appendChild(el)
+        el.textContent = (x)
+        
+    
+    }
+    
+    }
 }
 
+
+for (let y = 5; y < 6; y++) {
+       
+    let row = document.createElement('tr')
+    table.appendChild(row)
+    row.textContent = loc[y]
+
+for(let i=0;i<time.length-2;i++){
+
+ let x=0
+for(let y=0;y<total.length/15;y++){
+    
+x+=total[y*14+i]}
+// console.log(x)
+
+    let el = document.createElement('td')
+    row.appendChild(el)
+    el.textContent = (x)
+    
+
+}
+
+}
+
+
+
+// console.log(tot)
